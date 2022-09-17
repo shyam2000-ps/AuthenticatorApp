@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".eligibility">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="196dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="122dp"
+            android:layout_marginBottom="627dp"
+            android:text="@string/eligibility_form"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.128" />
+
+        <TextView
+            android:id="@+id/heading2"
+            android:layout_width="331dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginBottom="702dp"
+            android:text="@string/please_fill_the_form_to_confirm_your_eligibility_for_donating_hair"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.412"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="331dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="285dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginBottom="644dp"
+            android:text="@string/what_is_the_length_of_your_hair"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.387"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="329dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="318dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="607dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="329dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="388dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginBottom="538dp"
+            android:text="@string/what_is_the_colour_of_your_hair"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.425"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="329dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="424dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginBottom="501dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.425"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="310dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="496dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginBottom="429dp"
+            android:text="@string/does_your_hair_have_split_ends"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.393"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="331dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="533dp"
+            android:layout_marginEnd="156dp"
+            android:layout_marginBottom="389dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.393"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="323dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="121dp"
+            android:layout_marginTop="593dp"
+            android:layout_marginEnd="153dp"
+            android:layout_marginBottom="312dp"
+            android:text="@string/does_your_hair_have_grey_hair_strands_if_so_mention_the_grey_content_in_your_hair"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.397"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="326dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="647dp"
+            android:layout_marginEnd="153dp"
+            android:layout_marginBottom="278dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.369"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="323dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="728dp"
+            android:layout_marginEnd="156dp"
+            android:layout_marginBottom="191dp"
+            android:text="@string/you_can_donate_your_hair_only_in_focp_main_branch_or_through_dhl_courier_service"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.387"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+
+        <RadioButton
+            android:id="@+id/focp"
+            android:layout_width="71dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="12dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/focp"
+            app:layout_constraintBottom_toTopOf="@+id/cancel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.0"/>
+
+        <RadioButton
+            android:id="@+id/dhl"
+            android:layout_width="65dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="43dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/dhl"
+            app:layout_constraintBottom_toTopOf="@+id/next"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.527"
+            app:layout_constraintStart_toEndOf="@+id/focp"
+            app:layout_constraintTop_toTopOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.486" />
+
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="123dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="837dp"
+            android:layout_marginEnd="259dp"
+            android:layout_marginBottom="71dp"
+            android:backgroundTint="	#E6E6FA"
+            android:text="@string/cancel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="123dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="234dp"
+            android:layout_marginTop="837dp"
+            android:layout_marginEnd="89dp"
+            android:layout_marginBottom="71dp"
+            android:backgroundTint="	#E6E6FA"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">HAIRLANSE</string>
+    <string name="title_home">Home</string>
+    <string name="title_ngo">NGO</string>
+    <string name="title_shop">Shop</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="your_name">Your Name</string>
+    <string name="address_friends_of_cancer_patients_supreme_council_for_family_affairs_sharjah_uae_po_box_61161_al_corniche_street_al_sharq_al_seef_sharjah">Address :- Friends of Cancer Patients Supreme Council for Family Affairs – Sharjah, UAE PO Box: 61161 Al corniche street – Al Sharq Al Seef – Sharjah</string>
+    <string name="donate_hair_through_dhl">DONATE HAIR THROUGH DHL</string>
+    <string name="donate_hair_at_focp_main_branch">DONATE HAIR AT FOCP MAIN BRANCH</string>
+    <string name="does_your_hair_have_grey_hair_strands_if_so_mention_the_grey_content_in_your_hair">Does your hair have grey hair strands? If so mention the grey content in your hair?</string>
+    <string name="what_is_the_colour_of_your_hair">What is the colour of your hair?</string>
+    <string name="dhl">DHL</string>
+    <string name="does_your_hair_have_split_ends">Does your hair have split ends?</string>
+    <string name="eligibility_form">ELIGIBILITY FORM</string>
+    <string name="please_fill_the_form_to_confirm_your_eligibility_for_donating_hair">Please fill the form to confirm your eligibility for donating hair.</string>
+    <string name="next">NEXT</string>
+    <string name="cancel">CANCEL</string>
+    <string name="what_is_the_length_of_your_hair">What is the length of your hair?</string>
+    <string name="focp">FOCP</string>
+    <string name="you_can_donate_your_hair_only_in_focp_main_branch_or_through_dhl_courier_service">You can donate your hair only in FOCP main branch OR through DHL courier service</string>
+    <string name="todo">TODO</string>
+    <string name="donate_hair">Donate hair</string>
+    <string name="guidelines_for_suitable_hair_we_accept_hair_that_is_at_least_12_30_cms_as_some_of_the_hair_will_be_lost_while_making_wigs_hair_must_be_maintained_in_good_condition_clean_dry_hair_no_split_ends_from_any_gender_and_of_any_natural_colour_straight_wavy_curly_permed_or_chemically_straightened_hair_dyed_bleached_highlighted_hair_with_natural_colour_we_do_not_accept_dyed_hair_with_unnatural_colours_blue_green_purple_grey_hair_only_accepted_with_limited_grey_content">Guidelines for suitable hair We accept hair that is at least 12”/ 30 cms, as some of the hair will be lost while making wigs.</string>
+    <string name="donate_cash">DONATE CASH</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="your_email_address">Your Email Address</string>
+    <string name="verify_now">Verify Now</string>
+    <string name="email_not_verfied">Email Not Verfied !</string>
+    <string name="edit">Edit</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="customer_live_chat">Customer Live chat</string>
+
+    <string-array name="quantity_string_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5(Max)</item>
+    </string-array>
+
+</resources>

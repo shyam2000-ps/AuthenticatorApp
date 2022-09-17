@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F7F7"
+    tools:context=".home">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="303dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="458dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
+        app:srcCompat="@drawable/focplogo"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/card_view"
+        android:layout_width="348dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="279dp"
+        android:background="#2AF4ECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333">
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="296dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/guidelines_for_suitable_hair_we_accept_hair_that_is_at_least_12_30_cms_as_some_of_the_hair_will_be_lost_while_making_wigs_hair_must_be_maintained_in_good_condition_clean_dry_hair_no_split_ends_from_any_gender_and_of_any_natural_colour_straight_wavy_curly_permed_or_chemically_straightened_hair_dyed_bleached_highlighted_hair_with_natural_colour_we_do_not_accept_dyed_hair_with_unnatural_colours_blue_green_purple_grey_hair_only_accepted_with_limited_grey_content"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/info_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-medium"
+            android:text=" Grey hair – Only accepted with limited  grey content."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/info_text4" />
+
+        <TextView
+            android:id="@+id/info_text4"
+            android:layout_width="342dp"
+            android:layout_height="173dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Hair must be maintained in good condition Clean,  dry hair (no split ends) from any gender and of  any natural colour Straight, wavy, curly, permed  or chemically straightened hair Dyed, bleached/  highlighted hair with natural colour We do not  accept dyed hair with unnatural colours  (blue, green, purple). "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.502" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/cash"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="145dp"
+        android:backgroundTint="	#E6E6FA"
+        android:longClickable="false"
+        android:text="@string/donate_cash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <Button
+        android:id="@+id/hair"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="145dp"
+        android:backgroundTint="	#E6E6FA"
+        android:text="@string/donate_hair"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
