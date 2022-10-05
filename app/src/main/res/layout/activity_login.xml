@@ -4,28 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/colorButtonNormal"
+    android:background="#FFFFFF"
     tools:context=".Login">
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="395dp"
-        android:layout_height="470dp"
-        app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="-10dp"
-        app:cardMaxElevation="12dp"
-        app:cardPreventCornerOverlap="true"
-        app:cardUseCompatPadding="true"
-        app:layout_constraintBottom_toBottomOf="@+id/progressBar"
-        app:layout_constraintTop_toTopOf="@+id/Email"
-        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="242dp"
-        android:layout_height="48dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
-        android:background="#F0f8ff"
+        android:layout_marginEnd="16dp"
+        android:background="#FFFFFF"
         android:ems="10"
         android:fontFamily="sans-serif"
         android:hint="Password"
@@ -34,16 +23,19 @@
         android:textColor="#000000"
         android:textColorHint="#000000"
         android:textSize="14sp"
-        app:layout_constraintTop_toBottomOf="@+id/Email"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="71dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email" />
 
     <EditText
         android:id="@+id/Email"
-        android:layout_width="251dp"
-        android:layout_height="58dp"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="284dp"
-        android:background="#F0f8ff"
+        android:layout_marginEnd="16dp"
+        android:background="#FFFFFF"
         android:ems="10"
         android:fontFamily="sans-serif"
         android:hint="Email"
@@ -52,8 +44,10 @@
         android:textColor="#000000"
         android:textColorHint="#050505"
         android:textSize="14sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="67dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/loginBtn"
@@ -111,8 +105,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="306dp"
-        android:layout_height="84dp"
+        android:layout_width="328dp"
+        android:layout_height="204dp"
         android:layout_marginStart="76dp"
         android:layout_marginTop="67dp"
         android:layout_marginEnd="77dp"
@@ -122,7 +116,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@mipmap/mainlogo_foreground" />
 
 
